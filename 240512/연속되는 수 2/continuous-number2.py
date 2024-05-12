@@ -9,4 +9,4 @@ cnt = 0
 for i in range(n-1):
     if li[i] != li[i+1]:
         cnt += 1
-print(cnt)
+print(cnt + 1)
