@@ -28,7 +28,7 @@ def isdate(Y, M, D):
             return True
         else:
             False
-    if M <= 30:
+    if D <= 30:
         return True
     else:
         return False
