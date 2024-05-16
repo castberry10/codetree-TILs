@@ -27,14 +27,13 @@ def isdate(Y, M, D):
         if D <= isDbssus(Y):
             return True
         else:
-            False
+            return False
     if D <= 30:
         return True
     else:
         return False
 
 Y, M, D = map(int, input().split())
-day31 = [1, 3, 5, 7, 8, 10, 12]
 if isdate(Y, M, D):
     print(whatSeason(M))
 else:
